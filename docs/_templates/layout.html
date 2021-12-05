@@ -1,0 +1,26 @@
+{% extends "!layout.html" %}
+
+  {% block extrahead %}
+    <script src="https://kit.fontawesome.com/b6b1d9da07.js" crossorigin="anonymous"></script>
+    <script>
+	
+	function goHome(){
+	window.location.href = "https://tcdp.readthedocs.io/en/latest/index.html"; }
+	function goDocs(){
+	window.location.href = "https://tcdp.readthedocs.io/en/latest/list.html"; }
+
+      $( document ).ready(function() {
+
+        var docsbutton = `<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="goDocs()" aria-label="Docs" title="Docs"><i class="fas fa-scroll"></i></button></a>`
+        var homebutton = `<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="goHome()" aria-label="Home" title="Home"><i class="fas fa-home"></i></button></a>`
+
+        $(".topbar-main").append(docsbutton);
+        $(".topbar-main").append(homebutton);
+
+    });
+
+    </script>
+
+  {% endblock %}
+
+
