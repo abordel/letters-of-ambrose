@@ -46,7 +46,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_title = 'The Letters of St. Ambrose'
 html_theme = 'sphinx_book_theme'
-html_logo = '_static/6470449735_7f3826afa8_o.jpg'
+html_logo = '_static/6470449735_7f3826afa8_o_edit.jpg'
 html_favicon = '_static/Simple_Labarum2.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
