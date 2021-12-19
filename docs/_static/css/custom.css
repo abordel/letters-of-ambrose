@@ -11,7 +11,7 @@ div.navbar-brand-box a.navbar-brand img {
 	display: block;
 	/*height: 500px;*/
 	/*width: 150px;*/
-	/*max-height: 20vh !important;*/
+	max-height: 25vh !important;
 	/*max-width: 100%;*/
 	margin: 0 auto;
     border-radius:50%;
